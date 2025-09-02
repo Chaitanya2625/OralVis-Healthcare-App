@@ -1,0 +1,10 @@
+/* If not using PostCSS/Tailwind CLI, import the generated Tailwind CSS instead */
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+
+:root { color-scheme: light dark; }
+/* Remove @apply rules and use Tailwind utility classes directly in your HTML elements */
