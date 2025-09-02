@@ -151,13 +151,10 @@ cd frontend
 npm install
 2. Configure API URL
 Create .env in frontend/:
-
 bash
-Copy code
 VITE_API_URL=http://localhost:5000/api
 3. Run Development Server
 bash
-Copy code
 npm run dev
 Frontend will run at:
 👉 http://localhost:5173
